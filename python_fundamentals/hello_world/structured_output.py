@@ -1,10 +1,10 @@
-#!/usr/bin/env python3  
+#!/usr/bin/env python3
 import math
 
 language = "Python"
 version = 3
 Pi_approx = math.pi
-computation_valid = (5==5)
+computation_valid = (5 == 5)
 
 print(f"Language: {language}")
 print(f"Version: {version}")

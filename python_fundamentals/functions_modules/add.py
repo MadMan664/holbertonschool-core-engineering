@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Import add from add_0 and print 1 + 2 = 3."""
+"""Import add and print the result of an addition."""
 from add_0 import add
 
 if __name__ == "__main__":

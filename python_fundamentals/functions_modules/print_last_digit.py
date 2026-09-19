@@ -8,5 +8,5 @@ def print_last_digit(number):
     if number < 0 and last_digit != 0:
         last_digit -= 10
     positive_digit = abs(last_digit)
-    print(positive_digit)
+    print(positive_digit, end="")
     return positive_digit

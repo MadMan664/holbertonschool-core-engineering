@@ -15,6 +15,7 @@ class Square(Rectangle):
             size (int): the length of the square's side. Must be a
                 positive integer.
         """
+        self.integer_validator("size", size)
         super().__init__(size, size)
 
     def __str__(self):
